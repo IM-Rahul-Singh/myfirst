@@ -1,0 +1,39 @@
+.container{
+    border: 1px solid black;
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: aquamarine;
+    
+}
+
+.coffee{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card{
+    justify-items: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    gap: 20px;
+    padding-right: 10px;
+}
+.mug{
+    height: 300px;
+    width: 350px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-sizing: border-box;
+}
+.cart{
+    border-radius: 8px;
+    background-color: rgb(22, 96, 77);
+    display: inline-block;
+    padding: 8px 85px;
+    font-weight: bold;
+    color: rgb(255, 255, 255); 
+}
